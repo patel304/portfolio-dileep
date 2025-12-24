@@ -159,12 +159,11 @@ export default function App() {
             <p className="text-gray-300 mt-3">
               To help women in India respond quickly during unsafe situations by sending instant SOS alerts, sharing live location, and notifying trusted contacts—especially in areas with delayed police response, low public visibility, or when immediate help is hard to reach.
             </p>
-            <div className="flex m-3">
-              <div className="px-5 py-1 bg-gray-600 rounded-full">React</div>
-              <div className="px-5 py-1 bg-gray-600 rounded-full">NodeJs</div>
-              <div className="px-5 py-1 bg-gray-600 rounded-full">Socket.io</div>
-              <div className="px-5 py-1 bg-gray-600 rounded-full">MongoDB</div>
-              <div className="px-5 py-1 bg-gray-600 rounded-full">Google Map API</div>
+            <div className="flex m-2">
+              <div className="px-6 py-1 bg-gray-600 rounded-full flex items-center justify-center text-center">NodeJs</div>
+              <div className="px-6 py-1 bg-gray-600 rounded-full flex items-center justify-center text-center">Socket.io</div>
+              <div className="px-6 py-1 bg-gray-600 rounded-full flex items-center justify-center text-center">MongoDB</div>
+              <div className="px-6 py-1 bg-gray-600 rounded-full flex items-center justify-center text-center">Google Map APIs</div>
             </div>
 
             <div className="flex items-center justify-center gap-6 mt-4">
@@ -290,7 +289,7 @@ export default function App() {
 
 
       {/* ================= FOOTER ================= */}
-      <footer data-aos="fade-up" className="w-full bg-[#0a0d14] border-t border-gray-700/40 py-10 px-10 md:px-20 flex flex-col md:flex-row justify-between items-center">
+      <footer data-aos="fade-up" className="w-full bg-[#0a0d14] border-t border-gray-700/40 py-8 px-8 md:px-20 flex flex-col md:flex-row justify-between items-center gap-3">
 
         {/* RESUME */}
         <a
