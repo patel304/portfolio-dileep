@@ -66,20 +66,27 @@ export default function App() {
 
 
       {/* ================= NAVBAR ================= */}
-      <nav className="w-full flex justify-between items-center px-30 py-5 border-b border-gray-700/40">
-        <h1 className="text-3xl font-extrabold text-blue-400">Dileep...</h1>
+      <nav className="w-full flex flex-col md:flex-row md:justify-between md:items-center px-6 md:px-10 py-4 border-b border-gray-700/40 gap-4">
 
-        <p className="px-4 py-1 text-sm rounded-full bg-green-600/30 text-green-400 border border-green-700">
-          Available to Work
-        </p>
+        <div className="flex items-center justify-between w-full md:w-auto">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-blue-400">
+            Dileep...
+          </h1>
 
-        <div className="flex space-x-8 text-lg font-medium">
+          <p className="px-3 py-1 text-xs md:text-sm rounded-full bg-green-600/30 text-green-400 border border-green-700">
+            Available to Work
+          </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-4 md:gap-8 text-base md:text-lg font-medium text-center">
           <a href="#about" className="hover:text-blue-400">About</a>
           <a href="#skills" className="hover:text-blue-400">Skills</a>
           <a href="#projects" className="hover:text-blue-400">Projects</a>
           <a href="#contact" className="hover:text-blue-400">Contact</a>
         </div>
+
       </nav>
+
 
 
 
